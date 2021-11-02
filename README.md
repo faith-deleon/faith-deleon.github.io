@@ -21,10 +21,10 @@ There are resources in the "More Resources" section to help you set up these pre
 ### Instructions
 #### Creating your site's repository
 By creating a new repository, you will have a place where you can store your site's source files. This is where your resume's Markdown file will be.  
-1. In the top-left corner of the homepage of GitHub, select the "New" button to create a new repository. 
-![Add New Repository](/images/createNewRepo.PNG)
-2. Use the following format for your repository name: [username].github.io. 
-![New Repository Form](/images/newRepoForm.PNG)
+1. In the top-left corner of the homepage of GitHub, select the "New" button to create a new repository.   
+![Add New Repository](/images/createNewRepo.PNG)  
+2. Use the following format for your repository name: [username].github.io.  
+![New Repository Form](/images/newRepoForm.PNG)  
 Using the image above as an example, the "Repository name" field will have **faith-deleon.github.io**.
 3. Set it as a public repository.
 4. Complete the repository creation by clicking the "Create Repository" button.
@@ -34,25 +34,25 @@ By cloning your repository, you will be able to have access to your files locall
 1. Open up your repository in GitHub, which should currently have no files.
 2. Copy your repository's link. This link should look like: https://github.com/[username]/[username].github.io.
 3. In the left toolbar in VSCode, select the third icon from the top. 
-4. Select the "Clone Repository" button.
-![VSCode Clone Repo](/images/vscodeCloneRepo.PNG)
-5. A field will appear that says "Provide repository URL or pick a repository source". Paste your GitHub repository link in this field.
-![VSCode Clone Repo Link](/images/vscodeCloneRepoLink.PNG)
+4. Select the "Clone Repository" button.  
+![VSCode Clone Repo](/images/vscodeCloneRepo.PNG)  
+5. A field will appear that says "Provide repository URL or pick a repository source". Paste your GitHub repository link in this field.  
+![VSCode Clone Repo Link](/images/vscodeCloneRepoLink.PNG)  
 _NOTE: If you are not already logged in to your GitHub account in VSCode, you will be prompted to do so._
 6. Choose a location in your local directory where you will place your repository.
 
 You should now be able to open that new location in your local directory using VSCode.
 
 #### Set up Jekyll
-1. While your project is open in VSCode, open up the terminal by selecting "Terminal"->"New Terminal" from the menubar. You can also use the shortcut CTRL + `.
-![Open Terminal](/images/openTerminal.PNG)
+1. While your project is open in VSCode, open up the terminal by selecting "Terminal"->"New Terminal" from the menubar. You can also use the shortcut CTRL + `.  
+![Open Terminal](/images/openTerminal.PNG)  
 2. In the terminal, enter the following command to create your Jekyll site:
     ~~~
     jekyll new --skip-bundle
     ~~~
     _NOTE: Make sure you have installed Jekyll and its dependencies._  
-    This step should have created the following files:
-    ![After Jekyll New](/images/afterJekyllNew.PNG)
+    This step should have created the following files:  
+    ![After Jekyll New](/images/afterJekyllNew.PNG)  
 3. Open up the Gemfile that was produced in the previous step.
 4. Comment out the following line by adding a "#" in front of it:
     ~~~
@@ -77,8 +77,8 @@ You should now be able to open that new location in your local directory using V
         git commit -m "<Commit message>"
         ~~~
     - **VSCode:**
-        1. In the source control tab, select the three dots to view all Git options.
-        ![VSCode Stage and Commit](/images/vscodeStageCommit.PNG)
+        1. In the source control tab, select the three dots to view all Git options.  
+        ![VSCode Stage and Commit](/images/vscodeStageCommit.PNG)  
         2. Select "Changes"->"Stage All Changes".
         3. Select "Commit"->"Commit Staged".
         4. Add a helpful commit message describing what you did. 
@@ -89,8 +89,8 @@ You should now be able to open that new location in your local directory using V
         git push -u origin master
         ~~~
     - **VSCode:**
-        1. In the source control tab, select the three dots to view all Git options.
-        ![VSCode Stage and Commit](/images/vscodeStageCommit.PNG)
+        1. In the source control tab, select the three dots to view all Git options.  
+        ![VSCode Stage and Commit](/images/vscodeStageCommit.PNG)  
         2. Select "Push".
 
 After these steps, your site will be published at the following link: https://username.github.io/. Replace username with your GitHub username.
@@ -99,11 +99,11 @@ After these steps, your site will be published at the following link: https://us
 1. Open up the repository for your site on your browser.
 2. Go to the repository's "Settings" tab.
 3. Go to the "Pages" section.
-4. In the "Source" section, select the "/(root)" folder so that your site is built from the master branch.
-![Source Settings](/images/pagesSettings.PNG)
+4. In the "Source" section, select the "/(root)" folder so that your site is built from the master branch.  
+![Source Settings](/images/pagesSettings.PNG)  
 5. When setting up Jekyll, an "index.md" file is automatically added to your files.
-6. Click the pencil icon to start editing this file.
-![Edit index.md](/images/editIndex.PNG)
+6. Click the pencil icon to start editing this file.  
+![Edit index.md](/images/editIndex.PNG)  
 7. Replace the contents of this file with your Markdown formatted resume.
 8. Scroll to the bottom of the page and click the "Commit changes" button.
 9. In the _config.yml file, add the following line so that your Markdown files are rendered as GFM on your GitHub Pages site.
@@ -128,7 +128,7 @@ _NOTE: There are a lot of files that were automatically created when setting up 
 - [Minimal Theme by orderdedlist](https://github.com/orderedlist/minimal)
 
 ### FAQs
-1. Why is Markdown better than a word processor?
+1. Why is Markdown better than a word processor?  
 Markdown is more versatile and portable. For example, you can create notes, technical documentation, and websites by using Markdown. You can also easily open Markdown files using any application, from Notepad to a specific Markdown editor, like Atom.
-2. Why is my resume not showing up?
+2. Why is my resume not showing up?  
 Make sure that you have set up Jekyll for your site and that your resume is in the "index.md" file. You should also make sure that your site is being built on the correct location - see step 4 in the "Host your resume" instructions.
