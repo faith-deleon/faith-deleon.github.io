@@ -1,6 +1,3 @@
----
-layout: home
----
 # Faith de Leon
 (431) 275-8889  
 deleonkf@gmail.com
