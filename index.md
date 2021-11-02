@@ -19,14 +19,14 @@ deleonkf@gmail.com
 - Used Vue Test Utils (VTU) and Jest to test the application's components
 
 **Application Developer I — Wawanesa Mutual Insurance Company**  
-#####Co-op Work Term I  *(Jan. 2020 – Apr. 2020)*
+##### Co-op Work Term I  *(Jan. 2020 – Apr. 2020)*
 - Created rate book and form logic using Gosu to update the application that manages customer accounts
 - Utilized GUnit, based on JUnit, to apply a Test-Driven Development approach in tasks  
 
-#####Part Time Employment *(May 2020 – Aug. 2020)*
+##### Part Time Employment *(May 2020 – Aug. 2020)*
 - Fixed long-standing defects with the applications and introduced new ideas to improve development as part of the Vitality Team  
 
-#####Co-op Work Term II *(Sept. 2020 – Dec. 2020)*
+##### Co-op Work Term II *(Sept. 2020 – Dec. 2020)*
 - Reviewed defects that end-users have reported and used Splunk to identify the root cause
 - Created a Proof of Concept program using Java and Apache to send automated emails for Canada Post updates
 - Lead Scrum of Scrum meetings as the Scrum Master to ensure proper communication between teams
@@ -64,6 +64,6 @@ University of Manitoba, Winnipeg, MB
 - Consistently displayed a positive and approachable attitude that guaranteed customer satisfaction
 
 ### ACTIVITIES
-**WICS (Women in Computer Science) Member — University of Manitoba  *2019 – Present***  
-**Co-op Mentorship Program – University of Manitoba *2021***  
-**Internship Program — DMCI *2017***
+**WICS (Women in Computer Science) Member — University of Manitoba  *(2019 – Present)***  
+**Co-op Mentorship Program – University of Manitoba *(2021)***  
+**Internship Program — DMCI *(2017)***
