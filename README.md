@@ -78,7 +78,7 @@ You should now be able to open that new location in your local directory using V
         ~~~
     - **VSCode:**
         1. In the source control tab, select the three dots to view all Git options.  
-        ![VSCode Stage and Commit](/images/vscodeStageCommit.PNG)  
+        ![VSCode Stage and Commit](/images/vscodeStageCommit.png)  
         2. Select "Changes"->"Stage All Changes".
         3. Select "Commit"->"Commit Staged".
         4. Add a helpful commit message describing what you did. 
@@ -90,7 +90,7 @@ You should now be able to open that new location in your local directory using V
         ~~~
     - **VSCode:**
         1. In the source control tab, select the three dots to view all Git options.  
-        ![VSCode Stage and Commit](/images/vscodeStageCommit.PNG)  
+        ![VSCode Stage and Commit](/images/vscodeStageCommit.png)  
         2. Select "Push".
 
 After these steps, your site will be published at the following link: https://username.github.io/. Replace username with your GitHub username.
@@ -100,10 +100,10 @@ After these steps, your site will be published at the following link: https://us
 2. Go to the repository's "Settings" tab.
 3. Go to the "Pages" section.
 4. In the "Source" section, select the "/(root)" folder so that your site is built from the master branch.  
-![Source Settings](/images/pagesSettings.PNG)  
+![Source Settings](/images/pagesSettings.png)  
 5. When setting up Jekyll, an "index.md" file is automatically added to your files.
 6. Click the pencil icon to start editing this file.  
-![Edit index.md](/images/editIndex.PNG)  
+![Edit index.md](/images/editIndex.png)  
 7. Replace the contents of this file with your Markdown formatted resume.
 8. Scroll to the bottom of the page and click the "Commit changes" button.
 9. In the _config.yml file, add the following line so that your Markdown files are rendered as GFM on your GitHub Pages site.
