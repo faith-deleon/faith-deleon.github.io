@@ -1,4 +1,4 @@
-### Hosting a Resume in GitHub Pages
+# Hosting a Resume in GitHub Pages
 
 ### Purpose
 This README will describe the practical steps on how to host and format a resume using the following software stack:  
